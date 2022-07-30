@@ -27,8 +27,8 @@ def register_all_handlers(dp):
     register_admin(dp)
     register_user(dp)
 
-    register_echo(dp)
-    #register_menu(dp)
+    #register_echo(dp)
+    register_menu(dp)
 
 
 async def main():
